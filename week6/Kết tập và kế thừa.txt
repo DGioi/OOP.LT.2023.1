@@ -1,0 +1,6 @@
+Tái sử dụng mã nguồn:
+	+Tái sử dụng đối tượng: kết tập.
+	+Tái sử dụng lớp : kế thừa.
+Ưu điểm: Tăng hiệu năng, tiết kiệm , đảm bảo tăng chất lượng.
+
+-kết tập : một thuộc

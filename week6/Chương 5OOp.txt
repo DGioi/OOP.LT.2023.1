@@ -1,0 +1,12 @@
+week 6
+-Chỉ nên dùng static cho phương thức tiện ích ( nhập dữ liệu)
+-Lớp bao: các lớp tiện ích có thuộc tính là các kiểu dữ liệu nguyên thủy
+	+ viết hoa chữ cái đầu để chuyển
+	+ Immutable, không sửa đổi
+-so sánh hai xâu:  sử dụng phương thức equals để so sánh giá trị, sử dụng == để so sánh tham chiếu 
+
+-StringBuffer là kiểu biến đổi có thể sửa được. hoạt động giống mảng động , bắt đầu từ 32 ký tự cứ mỗi lần đầy tăng lên gấp đôi
+- Lớp Math
+- Lớp System
+	+ currentTimeMillis() trả về thời gian hiện tại
+những cái này đều nằm trong Java.lang tự động được import
