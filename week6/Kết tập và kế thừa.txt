@@ -1,6 +1,21 @@
 Tái sử dụng mã nguồn:
 	+Tái sử dụng đối tượng: kết tập.
-	+Tái sử dụng lớp : kế thừa.
+	+Tái sử dụng lớp : kế thừa. 
 Ưu điểm: Tăng hiệu năng, tiết kiệm , đảm bảo tăng chất lượng.
 
--kết tập : một thuộc
+-Kết tập : (aggregation) Tạo ra đối tượng trong lớp mới dựa vào đối tượng lớp cũ
+	+ Biển diễn bằng UML : hình thoi tại đầu của lớp toàn thể : point ----<> tứ giác
+	+ Sử dụng bội số quan hệ (multiplicity) tại hai đầu
+	+ Tên vai trò( rolename	) : nếu không có thì mặc định là tên của lớp
+	+ Thứ tự khởi tạo : các lớp thành phần (vd:point ) khởi tạo trước lớp tòan thể.
+-Kế thừa : (Inheritance)  Is-a-kind-of. 
+	Tạo class Person sau đó cho lớp Student kế thừa (class Student extends PerSon).
+	+ Vậy những thành phần nào được kế thừa? :
+		//Nguyên lý truy cập: protected cũng giống hệt defaul( package).
+		//Nguyên lý kế thừa:
+		Cùng package: không được kế thừa private.
+		Khác package: kế thừa public và protected. (protected và defaul khác nhau ở chỗ này)
+		Những thuộc tính không được kế thừa vẫn tồn tại nhưng không sử dụng trực tiếp được. Sử dụng gián tiếp thông
+		qua method ( get()).
+	Lợi ích: 
+		Nhanh gọn, hiệu quả.
